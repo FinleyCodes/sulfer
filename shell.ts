@@ -15,7 +15,7 @@ import chalk from 'chalk';
             break;
         };
 
-        const output = await run(input);
+        const output = await run(input, 'stdin');
         console.log(output);
     }
 
